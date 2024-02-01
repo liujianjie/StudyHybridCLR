@@ -24,7 +24,7 @@ public class Hello
                 // 实例化
                 GameObject go = GameObject.Instantiate(obj.Result);
                 // 添加新的脚本
-                //go.AddComponent<HotMono>();
+                go.AddComponent<HotMono>();
                 Debug.Log("2UseMonoBehaviour 资源挂载hotmono成功2");
             }
             else
